@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	if len(os.Args) < 1 {
+	if len(os.Args) < 2 {
 		log.Fatal(errors.New("no args"))
 	}
 
